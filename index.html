@@ -31,9 +31,10 @@
 
       <!-- Menu link fragment #id should match a div id. Example: <a href="#home"> links to <div id="home"></div>  -->
       <ul class="main-menu">
-        <li><a href="#home">home</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact">contact</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#Projects">Projects</a></li>
+        <li><a href="#Resume">Resume</a></li>
+        <li><a href="#MapGallery">Map Gallery</a></li>
       </ul>                 
     </header>
    
@@ -42,45 +43,67 @@
         <div id="content"> 
           
           <div id="home" class="content-region hide">
-            <h1>Adlai Nelson</h1>
-            <img src="assets/headshot_small.png"
-            width="200"
-            height="200">
-            <p>Contact</p>
-            <ul> 
-              <li>Email: adlai.nelson123@gmail.com</li>
-              <li><a href="https://www.linkedin.com/in/adlai-nelson/">Linkedin Profile</a></li>
-              <li><a href="https://github.com/adlai-nelson">Github Account</a></li>
-      
-            </ul>
-            <h2>About</h2>
-            <p>
-              Hi! I am a motivated geospatial analyst 
+            <div class="grid-container-element">
 
-              E
-            </p>
-            <h2>Education</h2>
-            <p>
-              Master of Science, Geographic Information Science
-            </p>
-            <img src="assets/Clark_University_seal.svg.png"
-            width="100"
-            height="100">
+              <div class="grid-child-element purple">
+
+                <h1>Adlai Nelson</h1>
+                <h3>GIS Portfolio</h3>
+
+                <img src="assets/headshot_small.png"
+                width="200"
+                height="200">
+              </div>
+
+              <div class="grid-child-element green">
+
+                <h2>About me</h2>
+                <p>
+                  I am a student at Clark Unviersity studying Geographic Information science
+                </p>
+
+                <ul> 
+                  <li>Email: adlai.nelson123@gmail.com</li>
+                  <li><a href="https://www.linkedin.com/in/adlai-nelson/">Linkedin Profile</a></li>
+                  <li><a href="https://github.com/adlai-nelson">Github Account</a></li>
+          
+                </ul>
+              </div>
+
+            </div>
+
+
           </div>
           
-          <div id="Portfolio" class="content-region hide">
+          <div id="Projects" class="content-region hide">
             <h2>Projects</h2>
             <p>
               I have worked on numerous projects, they will go here
+            </p>
           </div>
           
-          <div id="contact" class="content-region hide">
+          <div id="Resume" class="content-region hide">
             <h2>Contact</h2>
             <p>
               Pellentesque nec nam aliquam sem et tortor consequat. Quisque sagittis purus sit amet volutpat consequat. Magna eget est lorem ipsum dolor. 
             </p>
-          </div>
+
+            <object class="pdf" 
+            data="assets/AdlaiNelson_Resume_9-24.pdf"
+            width="800"
+            height="500">
+            </object>
           
+          </div>
+
+          <div id="MapGallery" class="content-region hide">
+            <h2>Contact</h2>
+            <p>
+              Pellentesque nec nam aliquam sem et tortor consequat. Quisque sagittis purus sit amet volutpat consequat. Magna eget est lorem ipsum dolor. 
+            </p>
+            
+          
+          </div>
         </div>
       </div>
     </div>

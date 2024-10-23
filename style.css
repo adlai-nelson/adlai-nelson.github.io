@@ -90,18 +90,29 @@ blockquote p:last-child {
  * Layout styles
  */
 
+/* experimental */
+
+.grid-container-element { 
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  grid-gap: 20px; 
+  width: 100%; 
+} 
+.grid-child-element { 
+  margin: 10px;  
+}
 /* Full size background image */
 html, #container, .inner { background-color:transparent;}
 html {
-  background:url(assets/ARTIC_LST_MAP2.jpg) center center no-repeat fixed;
+  background:url(assets/WESTBOROUGH_FCC.PNG) center center no-repeat fixed;
   background-size:cover;
 }
 body {
-  max-width:800px;
+  max-width:1000px;
   margin:25px auto;
 }
 header, #content, footer { 
-  background: rgba(0,0,0,.8); 
+  background: rgba(0, 0, 0, 0.814); 
   padding:25px;
   color:#FFFFFF; 
 }
