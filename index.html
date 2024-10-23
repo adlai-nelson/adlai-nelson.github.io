@@ -101,7 +101,38 @@
             <p>
               Pellentesque nec nam aliquam sem et tortor consequat. Quisque sagittis purus sit amet volutpat consequat. Magna eget est lorem ipsum dolor. 
             </p>
-            
+
+             <!-- The grid: four columns -->
+            <div class="row">
+               <div class="column">
+                  <img src="maps/beech_diseases_vertical8-1.png" alt="" onclick="myFunction(this);">
+                  <div class="desc">Beech Bark Disease and Beech Leaf Disease Info Sheet</div>
+                </div>
+                <div class="column">
+                  <img src="maps/hampshire1-1.png" alt="" onclick="myFunction(this);">
+                  <div class="desc">Colleges in Hampshire County, MA</div>
+                </div>
+                <div class="column">
+                  <img src="maps/nga_hvi.png" alt="" onclick="myFunction(this);">
+                  <div class="desc">Heat Vulnerability Index for Nigeria</div>
+                </div>
+                <div class="column">
+                  <img src="maps/np_map_rendered_hillshade_title-1.png" alt="" onclick="myFunction(this);">
+                  <div class="desc">Reproduction of NPS <a href="https://commons.wikimedia.org/wiki/File:NPS_haleakala-map.jpg">Haleakala National Park Map</a></div>
+                </div>
+             </div>
+
+             <!-- The expanding image container -->
+            <div class="container">
+                <!-- Close the image -->
+                <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+                <!-- Expanded image -->
+               <img id="expandedImg" style="width:100%">
+
+              <!-- Image text -->
+              <div id="imgtext"></div>
+            </div> 
           
           </div>
         </div>
