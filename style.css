@@ -215,6 +215,52 @@ ul.main-menu li a.active {
   display:block;
 }
 
+
+.column1 {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column1 {
+  float: left;
+}
+
+.left {
+  width: 35%;
+}
+
+.right {
+  width: 65%;
+}
+
+/*flex */
+.rowflex {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* Style for the text column */
+.columnflex.large {
+  flex: 1; /* Take up available space */
+  padding: 10px;
+}
+
+/* Style for the image column */
+.columnflex.small {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
  /* Style the buttons that are used to open and close the accordion panel */
  .accordion {
   background-color: #dadada;
