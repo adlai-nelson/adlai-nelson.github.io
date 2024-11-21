@@ -13,7 +13,8 @@
     <!-- Reset default styles and add support for google fonts -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
     <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
-   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
     <!-- Custom styles -->
     <link href="style.css" rel="stylesheet" type="text/css" />
 
@@ -52,6 +53,19 @@
                 <img src="assets/2024_Adlai_Nelson-001_circle.png"
                 width="250"
                 height="250">
+
+                <a href="https://github.com/adlai-nelson" target="_blank" title="GitHub">
+                  <i class="fab fa-github fa-2x"></i> <!-- GitHub Icon -->
+                </a>
+
+                <a href="https://www.linkedin.com/in/adlai-nelson" target="_blank" title="LinkedIn">
+                  <i class="fab fa-linkedin fa-2x"></i> <!-- LinkedIn Icon -->
+               </a>
+
+               <a href="mailto:adlai.nelson123@gmail.com" title="adlai.nelson123@gmail.com">
+                  <i class="fas fa-envelope fa-2x"></i> <!-- Email Icon -->
+               </a>
+
               </div>
 
               <div class="grid-child-element green">
@@ -62,15 +76,6 @@
                 <p>
                   Please visit my projects, resume, and map galley tabs for more details about the work I have done. Visit my Linkedin or contact me using the information below.
                 </p>
-                <h2>
-                  Contact
-                </h2>
-                <ul> 
-                  <li>adlai.nelson123@gmail.com</li>
-                  <li><a href="https://www.linkedin.com/in/adlai-nelson/">Linkedin Profile</a></li>
-                  <li><a href="https://github.com/adlai-nelson">Github Account</a></li>
-          
-                </ul>
               </div>
 
             </div>
@@ -80,20 +85,36 @@
           
           <div id="Projects" class="content-region hide">
             <h2>Projects</h2>
-            <p>
-              I have worked on numerous projects, they will go here
-            </p>
-            <h3>Modeling Range of Invase Hemlock Wolly Adelgid</h3>
-            <a href="https://github.com/adlai-nelson/HemlockWoollyAdelgidConditions">View repository with full details</a>
 
+            <button class="accordion">Using SQL to Predict Range of Invase Hemlock Woolly Adelgid</button>
+            <div class="panel">
+              <p>I build a database in PostGreSQL containing bioclimactic variables and confirmed observation of Hemlock Woolly Adelgid, and extracted the values to create a map used to predict what areas are at highest risk due to HWA. </p>
+              <p>
+                To read more, 
+                <a href="https://github.com/adlai-nelson/HemlockWoollyAdelgidConditions"> view repository.</a>
+              </p>
+            </div>
+            
+            <button class="accordion">Modeling Sound Scape Metrics with Biophysical Covariates in R</button>
+            <div class="panel">
+              <img src="maps/SoundSensing.png"
+              width="250"
+              height="250">
+              <p>
+                In this project, I used R to build random forest models for sound scape indicies based off of 
+              </p>
 
-            <h3>Modeling Sound Scape Metrics with Biophysical Covariates</h3>
-            <p>
-              <a href="projects/SoundSensing_report.html">Click to view full report</a>
-            </p>
-            <img src="maps/SoundSensing.png"
-            width="250"
-            height="250">
+              <p>
+                <a href="projects/SoundSensing_report.html">Click to view full report</a>
+              </p>
+
+            </div>
+            
+            <button class="accordion">Section 3</button>
+            <div class="panel">
+              <p>Lorem ipsum...</p>
+            </div> 
+
           </div>
           
           <div id="Resume" class="content-region hide">
@@ -112,6 +133,57 @@
 
           <div id="MapGallery" class="content-region hide">
             <h2>Map Gallery</h2>
+
+            <h2>1st Modal</h2>
+
+            <!-- Trigger/Open The Modal -->
+            <button class="modal-button" href="#myModal1">Open Modal</button>
+
+            <!-- The Modal -->
+              <div id="myModal1" class="modal">
+
+               <!-- Modal content -->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <span class="close">×</span>
+                  <h2>Modal Header</h2>
+                  </div>
+                <div class="modal-body">
+                  <p>Some text in the Modal Body</p>
+                  <p>Some other text...</p>
+                </div>
+                <div class="modal-footer">
+                  <h3>Modal Footer</h3>
+                </div>
+                </div>
+
+              </div>
+
+              <h2>1st Modal</h2>
+
+              <!-- Trigger/Open The Modal -->
+              <button class="modal-button" href="#myModal2">Open Modal</button>
+
+              <div id="myModal2" class="modal">
+
+                <!-- Modal content -->
+                 <div class="modal-content">
+                   <div class="modal-header">
+                     <span class="close">×</span>
+                   <h2>Modal Header</h2>
+                   </div>
+                 <div class="modal-body">
+                   <p>Some text in the Modal Body</p>
+                   <p>Some other text...</p>
+                 </div>
+                 <div class="modal-footer">
+                   <h3>Modal Footer</h3>
+                 </div>
+                 </div>
+ 
+               </div>
+
+
             <p>
               Click to enlarge
             </p>
@@ -173,7 +245,7 @@
     </div>
 
     <footer>  
-      Adlai Nelson, 2024 
+      <small>Adlai Nelson, 2024 </small>
     </footer>
     
     <!-- Load additional JS scripts here -->
