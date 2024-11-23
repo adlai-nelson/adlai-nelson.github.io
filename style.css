@@ -91,53 +91,6 @@ img {
   height: auto;     /* Maintains aspect ratio */
 }
 
-.column {
-  float: left;
-  width: 20%;
-  padding: 10px;
-}
-
-/* Style the images inside the grid */
-.column img {
-  opacity: 0.8;
-  cursor: pointer;
-}
-
-.column img:hover {
-  opacity: 1;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* The expanding image container (positioning is needed to position the close button and the text) */
-.container {
-  position: relative;
-  display: none;
-}
-
-/* Expanding image text */
-#imgtext {
-  position: absolute;
-  bottom: 15px;
-  left: 15px;
-  color: rgb(240, 19, 19);
-  font-size: 20px;
-}
-
-/* Closable button inside the image */
-.closebtn {
-  position: absolute;
-  top: 10px;
-  right: 15px;
-  color: red;
-  font-size: 35px;
-  cursor: pointer;
-} 
 
 .post {
   width: 900px;
@@ -261,32 +214,6 @@ ul.main-menu li a.active {
 }
 
 
- /* Style the buttons that are used to open and close the accordion panel */
- .accordion {
-  background-color: #dadada;
-  color: #000000;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  text-align: left;
-  border: 1px solid #000000;
-  outline: none;
-  transition: 0.4s;
-}
-
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active1, .accordion:hover {
-  background-color: #EF6D3D;
-}
-
-/* Style the accordion panel. Note: hidden by default */
-.panel {
-  padding: 0 18px;
-  background-color: rgba(255, 255, 255, 0);
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-}
 
 /* MODAL */
 
@@ -308,7 +235,7 @@ ul.main-menu li a.active {
 /* Modal Content */
 .modal-content {
   position: relative;
-  background-color: #fefefe;
+  background-color: #000000;
   margin: auto;
   padding: 0;
   border: 1px solid #888;
@@ -348,7 +275,7 @@ ul.main-menu li a.active {
 
 .modal-header {
   padding: 2px 16px;
-  background-color: #5cb85c;
+  background-color: #EF6D3D;
   color: white;
 }
 
@@ -356,7 +283,7 @@ ul.main-menu li a.active {
 
 .modal-footer {
   padding: 2px 16px;
-  background-color: #5cb85c;
+  background-color: #EF6D3D;
   color: white;
 } 
 
@@ -364,8 +291,8 @@ ul.main-menu li a.active {
 
 .image-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-  gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 50px;
   padding: 10px;
 }
 
@@ -387,5 +314,5 @@ ul.main-menu li a.active {
 .caption {
   margin-top: 5px;
   font-size: 14px;
-  color: #555;
+  color: #ffffff;
 }
