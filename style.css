@@ -192,6 +192,11 @@ ul.main-menu li a.active {
   width: 65%;
 }
 
+.medium {
+  width: 50%;
+}
+
+
 /*flex */
 .rowflex {
   display: flex;
