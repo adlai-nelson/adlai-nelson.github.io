@@ -59,6 +59,7 @@ for (i = 0; i < acc.length; i++) {
 }
 
 
+
 // Get the images that open the modal
 var imgs = document.querySelectorAll("img.modal-image");
 
@@ -94,6 +95,3 @@ window.onclick = function(event) {
         }
     }
 }
-
-
-
