@@ -254,20 +254,21 @@ ul.main-menu li a.active {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
+  padding-top: 50px; /* Location of the box */
   left: 0;
   top: 0;
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgb(255, 255, 255); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 
 /* Modal Content */
 .modal-content {
   position: relative;
-  background-color: #000000;
+  background-color: #ffffff;
+  color: #000;
   margin: auto;
   padding: 0;
   border: 1px solid #888;
@@ -294,7 +295,7 @@ ul.main-menu li a.active {
 .close {
   color: white;
   float: right;
-  font-size: 28px;
+  font-size: 50px;
   font-weight: bold;
 }
 
@@ -306,12 +307,12 @@ ul.main-menu li a.active {
 }
 
 .modal-header {
-  padding: 2px 16px;
+  padding: 20px 16px 2px 16px;
   background-color: #EF6D3D;
   color: white;
 }
 
-.modal-body {padding: 2px 16px;}
+.modal-body {padding: 5px 16px;}
 
 .modal-footer {
   padding: 2px 16px;
@@ -347,4 +348,13 @@ ul.main-menu li a.active {
   margin-top: 5px;
   font-size: 14px;
   color: #ffffff;
+}
+
+
+.socials {
+  float: right;
+}
+
+.clckable {
+  padding: 5px;
 }
