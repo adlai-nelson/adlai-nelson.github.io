@@ -126,9 +126,9 @@ html {
 }
 
 .tm-btn-default {
-  border: 1px solid #ccc;
+  border: 1.5px solid #afafaf;
   background-color: transparent;
-  color: #626364;
+  color: #515151;
 }
 
 .tm-btn-default:hover,
@@ -439,9 +439,10 @@ p, address {
   margin-bottom: 20px;
 }
 
+
 .tm-gallery-title {
   font-size: 1.3rem;
-  font-weight: 400;
+  font-weight: 500;
   color: #1A6692;
   margin-bottom: 15px;
   text-decoration: none;
@@ -449,6 +450,7 @@ p, address {
 
 .tm-gallery-title:hover{
   color: #35a4e4;
+  transform: scale(1.05);
 }
 
 .tm-gallery-description {
