@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Adlai Nelson GIS</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet" />    
+	<link href="css/templatemo-style.css" rel="stylesheet" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<!--
+
+Simple House
+
+https://templatemo.com/tm-539-simple-house
+
+-->
+<body> 
+
+	<div class="container">
+	<!-- Top box -->
+		<!-- Logo & Site Name -->
+		<div class="placeholder-small">
+			<div class="parallax-window-small" data-parallax="scroll" data-image-src="assets/background-small.jpg">
+				<div class="tm-header">
+					<div class="row tm-header-inner">
+						<div class="col-md-6 col-12">
+							<!-- <img src="img/simple-house-logo.png" alt="Logo" class="tm-site-logo" />  -->
+							<div class="tm-site-text-box">
+								<h1 class="tm-site-title">Adlai Nelson</h1>
+								<h6 class="tm-site-description">GIS Portfolio</h6>	
+							</div>
+						</div>
+						<nav class="col-md-6 col-12 tm-nav">
+							<ul class="tm-nav-ul">
+								<li class="tm-nav-li"><a href="index.html" class="tm-nav-link">Home</a></li>
+								<li class="tm-nav-li"><a href="resume.html" class="tm-nav-link">Resume</a></li>
+								<li class="tm-nav-li"><a href="portfolio.html" class="tm-nav-link">Portfolio</a></li>
+							</ul>
+						</nav>	
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<main>
+			<header class="row tm-welcome-section">
+				
+				<h2 class="col-12 text-center tm-section-title">Modeling Songbird Morning Chorus Strength using Biophysical Covariates</h2>
+				<p class="col-12 text-center"> R | Machine Learning | Random Forest | Ecological Modeling</p>
+			</header>
+			
+			<header class="row tm-project-paramater">
+				<figure class="tm-person">
+					<img src="assets/photos/sound.png" alt="Image" class="img-fluid tm-person-img" , width="400", height="400", style="padding: 15px;" />
+					<figcaption class="tm-person-description">
+						<h4 class="tm-person-name">Project Description</h4>
+						<p class="tm-person-about">
+							In this project, we used data derived from sound sensors in sites across central Massachusetts that measured the strength of natural noises to artificial noises. 
+							We then created a random forest model to associate the measure of songbird habitat to biophysical covariates, such as temperature, biomass, and nighttime lights.
+							This resulted in measure of songbird habitat for our entire study area. 
+						 </p>
+						<h4 class="tm-green">Affiliation</h4>
+						<p class="tm-person-about">Geospatial Analysis with R, Michael Cecil <br>Group Members: Abby Beilman, Denys Godwin
+						</p>
+						<h4 class="tm-purple">See More</h4>
+						 <a href="assets/files/SoundSensing_report.html" target="_blank" class="tm-btn tm-btn-default">Full Report</a>
+
+
+					</figcaption>
+				</figure>
+
+			</header>
+
+			<header class="row tm-welcome-section">
+				<h4 class="tm-info-title tm-text-success">Get in Touch</h4>
+				<address>
+					Please reach out to me via email with any questions or inquiries and feel free to add me on LinkedIn or view my work on Github.
+				</address>
+				<div>
+					<p>
+						<a href="mailto:adlai.nelson123@gmail.com" title="adlai.nelson123@gmail.com" class="icons-link">
+						<i class="fas fa-envelope fa-2x"></i> <!-- Email Icon -->
+						</a>  Adlai.Nelson123@gmail.com</p>
+					<p>
+						<a href="https://www.linkedin.com/in/adlai-nelson" target="_blank" title="LinkedIn" class="icons-link">
+						<i class="fab fa-linkedin fa-2x"></i> <!-- LinkedIn Icon -->
+						</a>  /in/adlai-nelson</p>
+					<p>
+						<a href="https://github.com/adlai-nelson" target="_blank" title="GitHub" class="icons-link">
+						<i class="fab fa-github fa-2x"></i> <!-- GitHub Icon -->
+						</a> adlai-nelson</p>
+							 
+				</div>
+			</header>
+
+			
+		</main>
+
+		<footer class="tm-footer text-center">
+			<p>Copyright &copy; 2025 Adlai Nelson 
+            
+            | Website Template: <a rel="nofollow" href="https://templatemo.com">TemplateMo</a></p>
+		</footer>
+	</div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/parallax.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			// Handle click on paging links
+			$('.tm-paging-link').click(function(e){
+				e.preventDefault();
+				
+				var page = $(this).text().toLowerCase();
+				$('.tm-gallery-page').addClass('hidden');
+				$('#tm-gallery-page-' + page).removeClass('hidden');
+				$('.tm-paging-link').removeClass('active');
+				$(this).addClass("active");
+			});
+		});
+	</script>
+</body>
+</html>
