@@ -54,12 +54,14 @@ https://templatemo.com/tm-539-simple-house
 			
 			<header class="row tm-project-paramater">
 				<figure class="tm-person">
-					<img src="assets/Thumbnails/transit_thumbnail.png" alt="Image" class="img-fluid tm-person-img" , width="400", height="400", style="padding: 15px;" />
+					<img src="assets/photos/MBTA_large.png" alt="Image" class="img-fluid tm-person-img" , width="400", height="400", style="padding: 15px;" />
 					<figcaption class="tm-person-description">
 						<h4 class="tm-person-name">Project Description</h4>
 						<p class="tm-person-about">
-							In this project, I used MBTA reliability data from their open data portal to join with bus and rapid transit stops in a PostGrSQL database.
-							The data was normalized and used to map which areas of the Greater Boston area were served with the most and least reliable public transit.
+							In this project, we used MBTA reliability data from their open data portal to identify which areas in the Greater Boston area were served with the most and least reliable public transit.
+							I normalized the reliability data and read it into our PostGreSQL database. 
+							I then used SQL scripting with PostGIS to relate bus and rapid transit lines with bus stops and stations, and averaged these values to get an average reliability value for each bus stop/ transit station.
+							I then summarized these values by census tract and related them to socioeconomic variables to measure who was receiving better public transit access.
 						 </p>
 						<h4 class="tm-green">Affiliation</h4>
 						<p class="tm-person-about">
