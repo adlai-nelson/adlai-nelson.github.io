@@ -358,6 +358,11 @@ p, address {
   margin: 60px auto;
   max-width: 655px;
 }
+
+.tm-cartography {
+  margin: 150px auto;
+  max-width: 900px;
+}
 .tm-about-me {
   margin: 20px auto;
   max-width: 900px;
