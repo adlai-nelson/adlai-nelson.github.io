@@ -572,6 +572,15 @@ p, address {
   margin-top: 15px;
 }
 
+.tm-about-me-1{
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: #09C;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+
 .tm-green {
   font-size: 1.6rem;
   font-weight: 300;
